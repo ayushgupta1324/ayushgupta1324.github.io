@@ -1,0 +1,68 @@
+.container{
+    height:100vh;
+    background: rgb(0,0,0);
+background: linear-gradient(24deg, rgba(0,0,0,1) 61%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+
+.heading{
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px 15px;
+}
+.introWrapper{
+    padding-top: 56px;
+    width:70%;
+    margin: auto;
+    /* border:1px solid cyan; */
+}
+
+.textWrapper{
+    /* border:1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introText{
+    font-size: 24px;
+    color: white;
+    /* border:1px solid pink; */
+    width:90%;
+    text-align:center;
+}
+
+.imageWrapper{
+    /* border:1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introImage{
+    border-radius: 50%;
+    width: 50%;
+    
+}
+
+
+.box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: aqua;
+    animation: GFG 7s infinite linear;
+    font-size: 36px;
+}
+
+@keyframes GFG {
+    0% {
+        transform: rotate(0deg)
+            translateY(100px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg)
+            translateY(100px) rotate(-360deg);
+    }
+}

@@ -1,0 +1,24 @@
+
+
+.navbar{
+    Top:0;
+    display: flex;
+    justify-content: space-around;
+    height:"36px";
+    position:fixed;
+    left:0;
+    width:100%;
+    padding:20px 15px;
+    background: rgb(0,0,0);
+background: linear-gradient(24deg, rgba(0,0,0,1) 61%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.btnStyle{
+    padding:4px 9px;
+}
+
+.btnStyle:hover{
+    border:1px solid white;
+    border-radius: 9999px;
+    padding:4px 9px;
+}

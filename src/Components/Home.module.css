@@ -1,0 +1,68 @@
+
+.container{
+    display: flex;
+    margin-top: 36px;
+    align-items: center;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(209deg, rgba(0,0,0,1) 46%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    /* border: 1px solid #a8ec13; */
+}
+
+.line {
+text-align: left;
+padding-left: 150px;
+}
+
+.text {
+    color:#fdfdfd;
+    font-size: 56px;
+    font-family: "Rubik",sans-serif;
+    margin: 0rem;
+    margin: auto;
+    font-weight: bolder;
+    /* border: 1px solid #a8ec13; */
+    text-align: center;
+    width:60%;
+}
+
+.text:has(.fancy:hover) .word:not(.fancy:hover){
+    opacity:0.4
+}
+
+.imgDivWrapper{
+    width:50%;
+}
+
+.portfolioImg{
+    border-radius: 50%;
+    width:60%;
+    margin:auto;
+}
+
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  .animate-flicker {
+     -webkit-animation: flickerAnimation 4s infinite;
+     -moz-animation: flickerAnimation 4s infinite;
+     -o-animation: flickerAnimation 4s infinite;
+      animation: flickerAnimation 4s infinite;
+  }
