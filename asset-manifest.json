@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.c861518b.css",
-    "main.js": "/static/js/main.6204bb06.js",
+    "main.css": "/static/css/main.ee17391e.css",
+    "main.js": "/static/js/main.bb639b03.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/triptosite.netlify.app_.png": "/static/media/triptosite.netlify.app_.70ac0555c404aba37d9b.png",
+    "static/media/hellobrightline.netlify.app_.png": "/static/media/hellobrightline.netlify.app_.cd21b9a77bd08a358f36.png",
+    "static/media/mondayImg.png": "/static/media/mondayImg.ae9b0282512a3ee1329e.png",
     "static/media/tripToB1.png": "/static/media/tripToB1.aa2255b394883ce12315.png",
     "static/media/programmer.gif": "/static/media/programmer.ed9e58e5b19cd0f4d5f5.gif",
-    "static/media/helloBrightline.png": "/static/media/helloBrightline.01506e6277eadf9c154b.png",
     "static/media/AyushPhoto.jpg": "/static/media/AyushPhoto.78bb8db59a921156f497.jpg",
     "static/media/AG.png": "/static/media/AG.4f63a3cc8546889b46b0.png",
     "index.html": "/index.html",
-    "main.c861518b.css.map": "/static/css/main.c861518b.css.map",
-    "main.6204bb06.js.map": "/static/js/main.6204bb06.js.map",
+    "main.ee17391e.css.map": "/static/css/main.ee17391e.css.map",
+    "main.bb639b03.js.map": "/static/js/main.bb639b03.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c861518b.css",
-    "static/js/main.6204bb06.js"
+    "static/css/main.ee17391e.css",
+    "static/js/main.bb639b03.js"
   ]
 }
