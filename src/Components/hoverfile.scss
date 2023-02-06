@@ -1,0 +1,117 @@
+$animation-time: 1s;
+$hover-animation-time: 0.3s;
+$animation-delay: 0.1s;
+$rotateIn: rotateX(0deg) translate(0, 0);
+$rotate1Out: rotateX(90deg) translate(0, -100%);
+$rotate2Out: rotateX(90deg) translate(0, 100%);
+
+body {
+    background: #333;
+    font-family: arial;
+}
+
+.rotate {
+    float: left;
+    margin: 10px;
+    
+    span {
+        float: left;
+        font-weight: bold;  
+        height: 30px;
+        line-height: 30px;
+        position: relative;
+        width: 30px;
+        text-align: center;  
+
+        &:before,
+        &:after {
+            content:  attr(letter);
+            bottom: 0;
+            height: inherit;
+            left: 0;
+            position: absolute;
+            right: 0;
+            text-transform: uppercase;
+            transform: $rotateIn;
+            top: 0;
+            width: inherit;
+        }
+
+        &:before {
+            background: black;
+            color: white;
+            transform-origin: 0 0;
+        }
+
+        &:after {
+            background: white;
+            color: black;
+            transform: $rotate2Out;
+            transform-origin: 0 100%;
+        }
+
+       
+    }
+}
+
+
+.rotate.animate {
+    span {
+        
+         &:before {
+            animation: rotate1 $animation-time infinite;
+        }
+
+        &:after {
+            animation: rotate2 $animation-time infinite;
+        }
+    }
+}
+
+.rotate.hover {
+    
+    span {
+        &:before,
+        &:after{
+            transition: $hover-animation-time;
+        }        
+    }
+    
+    &:hover {
+        span {
+            &:before {
+                transform: $rotate1Out;
+            }
+            &:after {
+                transform: $rotateIn;
+            }
+        }
+    }
+}
+
+
+@for $i from 1 through 7 {
+    div.rotate span:nth-child(#{$i}) {
+
+         &:before,
+        &:after {
+            animation-delay: $animation-delay * $i;
+            transition-delay: $animation-delay * $i;
+        }
+    }
+}
+    
+@keyframes rotate1 {
+    0% { transform: $rotateIn; }
+    25% { transform: $rotate1Out;}
+    50% { transform: $rotate1Out; }
+    75% { transform: $rotateIn; }
+    100% { transform: $rotateIn; }
+}
+@keyframes rotate2 {
+    0% { transform: $rotate2Out; }
+    25% { transform: $rotateIn;}
+    50% { transform: $rotateIn; }
+    75% { transform: $rotate2Out; }
+    100% { transform: $rotate2Out; }
+}

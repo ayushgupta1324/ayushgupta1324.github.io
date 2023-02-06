@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  
+    padding:0;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -18,7 +19,7 @@ code {
 }
 
 ::-webkit-scrollbar-track{
-  background: rgb(0,0,0);
+  background: rgb(24, 23, 23);
 }
 ::-webkit-scrollbar-thumb{
   background-color: whitesmoke;
@@ -26,3 +27,5 @@ code {
   border:7px solid transparent;
   background-clip: content-box;
 }
+
+/* background: linear-gradient(90deg, rgba(51,29,253,1) 0%, rgba(69,232,252,1) 100%); */

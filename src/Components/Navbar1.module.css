@@ -1,24 +1,131 @@
 
 
 .navbar{
-    Top:0;
+    background: rgb(0,0,0);
+    background: linear-gradient(270deg, rgba(0,0,0,1) 35%, rgba(4,4,64,1) 100%);
+    width:100%;
+    height:80px;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    Top:0;
     justify-content: space-around;
-    height:"36px";
     position:fixed;
     left:0;
-    width:100%;
-    padding:20px 15px;
-    background: rgb(0,0,0);
-background: linear-gradient(24deg, rgba(0,0,0,1) 61%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    padding:16px 15px;
+    background-color: black;
+    z-index: 20;
+    /* background: rgb(0,0,0);
+    background: linear-gradient(24deg, rgba(0,0,0,1) 61%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%); */
 }
 
-.btnStyle{
-    padding:4px 9px;
+
+.progressContainer {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+  .progressBar {
+    height: 6px;
+    position: fixed;
+    Top:80px;
+    background: rgb(51,29,253);
+    background: linear-gradient(90deg, rgba(51,29,253,1) 0%, rgba(69,232,252,1) 100%);
+    width: 0%;
+  }
+  
+
+.navbar .leftSide{
+    /* border: 1px solid white; */
+    width: 40%;
 }
 
-.btnStyle:hover{
-    border:1px solid white;
-    border-radius: 9999px;
-    padding:4px 9px;
+.rightSide{
+    /* border:1px solid #E50914; */
+    width: 60%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
 }
+
+.mobileNav{
+    display: none;
+}
+
+.navbar .links{
+    width: 100%;
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* .btnStyle{
+    padding:0;
+    border: 1px solid yellow;
+    padding: 4px 10px 4px 10px;
+    border-radius: 4px;
+    color:white;
+} */
+
+
+.btnStyle {
+    border-radius: 4px;
+    background-color: #151227;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 2px 10px 2px 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btnStyle span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btnStyle span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btnStyle:hover span {
+    padding-right: 25px;
+  }
+  
+  .btnStyle:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  .menuItem {
+    padding: 8px;
+    font-size: 16px;
+    border:none;
+    color:white;
+    background: black;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  @media all and (max-width : 768px) and (min-width:200px){
+    .rightSide{
+        display:none;
+    }
+
+    .mobileNav{
+        display: block;
+    }
+  }

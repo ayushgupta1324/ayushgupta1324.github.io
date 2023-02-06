@@ -1,7 +1,8 @@
 .container{
     height:100vh;
-    background: rgb(0,0,0);
-background: linear-gradient(24deg, rgba(0,0,0,1) 61%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    /* background: rgb(0,0,0);
+background: linear-gradient(24deg, rgba(0,0,0,1) 61%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%); */
+color: white;
 }
 
 
@@ -9,9 +10,10 @@ background: linear-gradient(24deg, rgba(0,0,0,1) 61%, rgba(9,9,121,1) 100%, rgba
     font-size: 36px;
     font-weight: bold;
     padding: 20px 15px;
+    /* border-bottom: 1px solid white; */
 }
 .introWrapper{
-    padding-top: 56px;
+    /* padding-top: 56px; */
     width:70%;
     margin: auto;
     /* border:1px solid cyan; */
@@ -26,10 +28,9 @@ background: linear-gradient(24deg, rgba(0,0,0,1) 61%, rgba(9,9,121,1) 100%, rgba
 
 .introText{
     font-size: 24px;
-    color: white;
     /* border:1px solid pink; */
     width:90%;
-    text-align:center;
+    text-align:left;
 }
 
 .imageWrapper{
@@ -37,12 +38,14 @@ background: linear-gradient(24deg, rgba(0,0,0,1) 61%, rgba(9,9,121,1) 100%, rgba
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border: 1px solid white;  */
+
 }
 
 .introImage{
     border-radius: 50%;
-    width: 50%;
-    
+    width: 60%;  
+    /* border: 1px solid white;  */
 }
 
 
@@ -50,12 +53,11 @@ background: linear-gradient(24deg, rgba(0,0,0,1) 61%, rgba(9,9,121,1) 100%, rgba
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    color: aqua;
-    animation: GFG 7s infinite linear;
+    animation: reactIcon 7s infinite linear;
     font-size: 36px;
 }
 
-@keyframes GFG {
+@keyframes reactIcon {
     0% {
         transform: rotate(0deg)
             translateY(100px) rotate(0deg);
@@ -66,3 +68,63 @@ background: linear-gradient(24deg, rgba(0,0,0,1) 61%, rgba(9,9,121,1) 100%, rgba
             translateY(100px) rotate(-360deg);
     }
 }
+
+/* .boxJS {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: javascriptIcon 10s infinite linear;
+    font-size: 36px;
+} */
+
+/* @keyframes javascriptIcon {
+    0% {
+        transform: rotate(0deg)
+            translateY(100px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg)
+            translateY(100px) rotate(-360deg);
+    }
+}
+
+.boxTS {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: javascriptIcon 7s infinite linear;
+    font-size: 36px;
+}
+
+@keyframes typescriptIcon {
+    0% {
+        transform: rotate(0deg)
+            translateY(100px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg)
+            translateY(100px) rotate(-360deg);
+    }
+} */
+
+
+@media all and (max-width : 992px) and (min-width:686px){
+ 
+  }
+
+
+  @media all and (max-width : 685px){
+
+    .container{
+        height: auto;
+    }
+
+    .introText{
+        text-align: justify;
+        word-spacing: -10px;
+    }
+  }
+
+  

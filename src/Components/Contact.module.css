@@ -1,7 +1,7 @@
 .container{
-    height:30vh;
-    background: rgb(0,0,0);
-    background: linear-gradient(27deg, rgba(0,0,0,1) 57%, rgba(6,6,105,1) 100%, rgba(0,212,255,1) 100%);
+    /* height:100vh; */
+    /* background: rgb(0,0,0);
+    background: linear-gradient(27deg, rgba(0,0,0,1) 57%, rgba(6,6,105,1) 100%, rgba(0,212,255,1) 100%); */
 }
 
 .heading{
