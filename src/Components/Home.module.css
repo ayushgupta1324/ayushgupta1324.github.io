@@ -1,17 +1,13 @@
 
 .container{
     display: flex;
-    margin-top: 36px;
+    margin-top: 144px;
+    padding-top: 120px;
     align-items: center;
-    height: 100vh;
+    height: 84vh;
     width:90%;
     margin: auto;
 }
-
-/* .line {
-text-align: left;
-padding-left: 150px;
-} */
 
 .text {
     color:#fdfdfd;
@@ -24,6 +20,7 @@ padding-left: 150px;
     text-align: left;
     padding-left: 80px;
     width:60%;
+
 }
 
 .imgDivWrapper{
@@ -70,47 +67,89 @@ padding-left: 150px;
       margin-top: 80px;
       padding: 0;
       height: 50vh;
-      border:1px solid #a8ec13;
+      /* border:1px solid #a8ec13; */
     }
     .text{
         font-size:42px;
         padding-left: 24px;
         margin-left: 0;
         font-weight: 700;
-        border:1px solid #a8ec13;
+        /* border:1px solid #a8ec13; */
 
     }
   }
 
 
-  @media all and (max-width : 685px){
+  @media all and (max-width : 950px){
     .container{
-      display: flex;
-      flex-direction: column;
+      /* display: flex;
+      flex-direction: column; */
       height: auto;
-      border:1px solid white;
-      margin-top: 80px;
-      padding: 0;
+      /* border:1px solid white; */
+      margin-top: 144px;
+      padding: 84px 0;
+      position: relative;
     }
     .text{
-        font-size:18px;
+      font-family: "Rubik",sans-serif;
+        font-size: 36px;
         padding-left: 24px;
+        width: 50%;
         margin-left: 0;
         font-weight: 500;
-        border:1px solid white;
+        /* border:1px solid rgb(195, 19, 136); */
 
     }
 
     .imgDivWrapper{
-      width: 100%;
-      border:1px solid #a8ec13;
+      width: 50%;
+      /* border:1px solid #a8ec13; */
       margin-right: 0;
+      /* height: 20vh; */
+      position: absolute;
+      left: 50%;
   }
   
   .portfolioImg{
       border-radius: 50%;
-      width:30%;
-      margin:auto;
+      width:70%;
       margin-right: 20px;
+      display: block;
+      margin-left: 0;
+      margin:auto;
+      /* border: 1px solid red; */
   }
+  }
+
+  @media all and (max-width:440px){
+    
+    .container{
+      /* display: flex;
+      flex-direction: column; */
+      height: 430px;
+      /* border:1px solid white; */
+      margin-top:56px;
+      /* height: 86vh; */
+      position: relative;
+    }
+
+    .imgDivWrapper{
+     top:70%;
+     /* border: 1px solid white; */
+  }
+
+  .portfolioImg{
+    border-radius: 50%;
+    width:100%;
+    margin-right: 20px;
+    display: block;
+    margin-left: 0;
+    margin:auto;
+    /* border: 1px solid red; */
+}
+
+    .text{
+        font-size: 24px;
+
+    }
   }

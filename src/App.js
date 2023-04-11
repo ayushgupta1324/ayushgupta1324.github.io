@@ -1,11 +1,11 @@
 import './App.css';
 import Home from './Components/Home';
-import { Contact } from './Components/Contact';
+// import { Contact } from './Components/Contact';
+import { ContactNew } from './Components/ContactNew';
 import { Navbar1 } from './Components/Navbar1';
 import Projects from './Components/Projects';
 import { About } from './Components/About';
 import { Skills } from './Components/Skills';
-import { Hoverfile } from './Components/hoverfile';
 
 
 function App() {
@@ -16,8 +16,7 @@ function App() {
       <About/>
       <Projects/>
       <Skills/>
-      <Contact/>
-      <Hoverfile/>
+      <ContactNew/>
     </div>
   );
 }

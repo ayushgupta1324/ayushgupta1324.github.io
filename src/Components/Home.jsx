@@ -27,9 +27,9 @@ return(
     <div className={styles.imgDivWrapper}>
     <BsStars className={styles["animate-flicker"]}/>
         <img src={programmer} alt="programmer" className={styles.portfolioImg}/>
-        <BsStars  style={{marginLeft:"240px"}} className={styles["animate-flicker"]}/>
+        {/* <BsStars  style={{marginLeft:"240px"}} className={styles["animate-flicker"]}/> */}
     </div>
-    <BsStars className={styles["animate-flicker"]}/>
+    
 </div>
 
 </>

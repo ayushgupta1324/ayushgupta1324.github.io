@@ -2,10 +2,17 @@
 
 .App {
   text-align: center;
+  /* background: rgb(0,0,0);
+  background: linear-gradient(270deg, rgba(0,0,0,1) 35%, rgba(4,4,64,1) 100%); */
+
   background: rgb(0,0,0);
-  background: linear-gradient(270deg, rgba(0,0,0,1) 35%, rgba(4,4,64,1) 100%);
+  background: linear-gradient(235deg, rgba(0,0,0,1) 28%, rgba(3,3,56,1) 52%);
+
+  /* background: rgb(0,0,0);
+  background: linear-gradient(223deg, rgba(0,0,0,1) 36%, rgba(36,36,40,1) 51%); */
   width:100%;
   height:auto;
+  color:white;
 }
 
 /* @media only screen and (max-width: 600px) {

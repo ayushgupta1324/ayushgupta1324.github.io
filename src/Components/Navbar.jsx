@@ -29,7 +29,7 @@ import {
     MoonIcon, SunIcon
   } from '@chakra-ui/icons';
   
-  export default function Navbar() {
+  export const Navbar = ()=> {
     const { isOpen, onToggle } = useDisclosure();
     const { colorMode, toggleColorMode } = useColorMode();
     return (

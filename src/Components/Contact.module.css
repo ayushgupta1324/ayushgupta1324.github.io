@@ -88,3 +88,62 @@
 .fancy:hover > .letter:nth-child(15){
     transform:translate(0%,-35%) rotate(5deg)
 }
+
+.contactContainer
+{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 16px;
+}
+
+.contactLeftElement{
+    border-right: 2px solid grey;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+}
+
+
+.detailsDivWrapper{
+    display: flex;
+    gap: 16px;
+    padding: 5px 0;
+}
+
+
+/* --------------MEDIA QUERIES--------------- */
+@media all and (max-width : 950px){
+    .contactContainer{
+        flex-direction: column;
+    }
+
+    .contactLeftElement{
+        border-right: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .detailsDivWrapper{
+        display: flex;
+        gap: 16px;
+        width: 50%;
+        margin: auto;
+    }
+
+  }
+
+  @media all and (max-width : 660px){
+    .detailsDivWrapper{
+        display: flex;
+        gap: 16px;
+        padding: 5px 0;
+        width: 90%;
+        margin: auto;
+    }
+  }
