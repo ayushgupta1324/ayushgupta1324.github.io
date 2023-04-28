@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd76cf47.css",
-    "main.js": "/static/js/main.fed6ebc4.js",
-    "static/js/787.f35f70c9.chunk.js": "/static/js/787.f35f70c9.chunk.js",
+    "main.css": "/static/css/main.3454ea70.css",
+    "main.js": "/static/js/main.86d7b203.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/programmer.gif": "/static/media/programmer.ed9e58e5b19cd0f4d5f5.gif",
     "static/media/triptoImg.webp": "/static/media/triptoImg.edcc27b4f9ee6e66707c.webp",
     "static/media/helloBrightlineImg.webp": "/static/media/helloBrightlineImg.a1d51adbb2850fa45425.webp",
@@ -12,12 +12,12 @@
     "static/media/AG.png": "/static/media/AG.4f63a3cc8546889b46b0.png",
     "static/media/burberryImg.webp": "/static/media/burberryImg.8e2c142a17ecabf49595.webp",
     "index.html": "/index.html",
-    "main.dd76cf47.css.map": "/static/css/main.dd76cf47.css.map",
-    "main.fed6ebc4.js.map": "/static/js/main.fed6ebc4.js.map",
-    "787.f35f70c9.chunk.js.map": "/static/js/787.f35f70c9.chunk.js.map"
+    "main.3454ea70.css.map": "/static/css/main.3454ea70.css.map",
+    "main.86d7b203.js.map": "/static/js/main.86d7b203.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd76cf47.css",
-    "static/js/main.fed6ebc4.js"
+    "static/css/main.3454ea70.css",
+    "static/js/main.86d7b203.js"
   ]
 }
