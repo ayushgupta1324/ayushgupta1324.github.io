@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.b9f0085d.css",
-    "main.js": "/static/js/main.e000e397.js",
+    "main.js": "/static/js/main.d6c7e9b5.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/programmer.gif": "/static/media/programmer.ed9e58e5b19cd0f4d5f5.gif",
     "static/media/triptoImg.webp": "/static/media/triptoImg.edcc27b4f9ee6e66707c.webp",
     "static/media/helloBrightlineImg.webp": "/static/media/helloBrightlineImg.a1d51adbb2850fa45425.webp",
     "static/media/AyushPhoto.jpg": "/static/media/AyushPhoto.78bb8db59a921156f497.jpg",
-    "static/media/fw21_1180-Ayush-Gupta-Resume.pdf": "/static/media/fw21_1180-Ayush-Gupta-Resume.23bb4c34987037117a09.pdf",
+    "static/media/Ayush-Gupta-Resume.pdf": "/static/media/Ayush-Gupta-Resume.57732dd18fd730de7806.pdf",
     "static/media/mondayImg.webp": "/static/media/mondayImg.5371eebdac0f16159021.webp",
     "static/media/AG.png": "/static/media/AG.4f63a3cc8546889b46b0.png",
     "static/media/burberryImg.webp": "/static/media/burberryImg.8e2c142a17ecabf49595.webp",
     "index.html": "/index.html",
     "main.b9f0085d.css.map": "/static/css/main.b9f0085d.css.map",
-    "main.e000e397.js.map": "/static/js/main.e000e397.js.map",
+    "main.d6c7e9b5.js.map": "/static/js/main.d6c7e9b5.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9f0085d.css",
-    "static/js/main.e000e397.js"
+    "static/js/main.d6c7e9b5.js"
   ]
 }
